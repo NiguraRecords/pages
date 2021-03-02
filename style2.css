@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    background-image: url(images/nigurarecords.png);
+  }
+
+  .nav-wrapper {
+    height: 100vh;
+    width: 18%;
+    background-color: #F0F0FF;
+
+  }
+  .nav {
+    margin-top: 43px;
+    margin-left: 18px;
+  }
+  .nav-content {
+    display: flex;
+    margin-bottom: 31px;
+    align-items: center;
+  }
+
+  .nav-icon-top {
+    height: 15px;
+    width: 15px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background-color:#FFCCCC;
+  }
+
+  .nav-icon-release {
+    height: 15px;
+    width: 15px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background-color:#00FF00;
+  }
+
+  .nav-icon-member {
+    height: 15px;
+    width: 15px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background-color:#33FFFF;
+  }
+
+  .nav-icon-photos {
+    height: 15px;
+    width: 15px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background-color:#0099FF;
+  }
+  
+  .contents-wrapper {
+    height: 100%;
+    width: 82%;
+  }
+  .heading {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+  }
+  .contents-wrapper-inner {
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+  }
+
+  .content-left {
+    width: 350px;
+  }
+  .face-photo {
+    width: 100%;
+    height: 414px;
+    margin-bottom: 23px;
+  }
+  .profile {
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .profile-english {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .mail {
+    margin-bottom: 20px;
+  }
+
+
+  .content-right {
+    width: 530px;
+  }
+  .news-heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .news-list {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .news-list-title {
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+  .news-list-description {
+    margin-bottom: 30px;
+    margin-left: 80px;
+  }
